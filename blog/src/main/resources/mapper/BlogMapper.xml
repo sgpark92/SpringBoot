@@ -2,9 +2,15 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.toy.blog.BlogMapper">
 
+	<select id="findItems" resultType="com.toy.blog.Blog">
+	<![CDATA[
+		SELECT * FROM BLOG_ITEM
+	]]>
+	</select>
+
 	<select id="findItemsCnt" resultType="int">
 	<![CDATA[
-		SELECT COUNT(*) FROM BBS_ITEM
+		SELECT COUNT(*) FROM BLOG_ITEM
 	]]>
 	</select>
 </mapper>

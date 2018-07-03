@@ -1,4 +1,4 @@
-package com.blog;
+package com.toy.blog;
 
 public interface BlogService
 {

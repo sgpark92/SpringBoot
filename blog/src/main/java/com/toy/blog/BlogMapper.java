@@ -1,4 +1,4 @@
-package com.blog;
+package com.toy.blog;
 
 import org.apache.ibatis.annotations.Mapper;
 
